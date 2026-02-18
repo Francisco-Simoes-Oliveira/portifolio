@@ -1,0 +1,9 @@
+:root {
+  --bj: #ffffff;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: var(--bj);
+}
