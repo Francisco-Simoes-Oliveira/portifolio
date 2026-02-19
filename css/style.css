@@ -31,6 +31,7 @@ body {
   transform: translateY(-1px);
 }
 
+/*HEADER*/
 .navbar {
   position: sticky;
   top: 0;
@@ -80,3 +81,40 @@ body {
 .navlinks a:hover {
   color: var(--cp);
 }
+
+/*MAIN*/
+
+/*hero*/
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-between;
+}
+.hero-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.hero-text span {
+  display: inline-block;
+  padding: 4px 12px 4px 12px;
+  border-radius: 999px;
+  background-color: var(--cp);
+  color: #fff;
+  font-weight: 600;
+}
+.hero-text h1 {
+}
+
+/*FOOTER*/
