@@ -108,13 +108,26 @@ body {
 }
 .hero-text span {
   display: inline-block;
+  width: 18rem;
   padding: 4px 12px 4px 12px;
   border-radius: 999px;
   background-color: var(--cp);
   color: #fff;
+  text-align: center;
   font-weight: 600;
 }
 .hero-text h1 {
+}
+.hero-image {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+}
+.hero img {
+  width: 16rem;
+  height: 20rem;
+  border: #e2e8f0, solid, transparent;
 }
 
 /*FOOTER*/
